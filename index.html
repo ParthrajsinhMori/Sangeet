@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sangeet-Home Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="#DBF9DB">
+    <nav>
+        <ul>
+            <li class="logo">Sangeet<img src="logo.svg" alt="logo"></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html">Log In</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+            <li><a href="about.html">About<a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Mast Gaane</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img class="hi" src="1i.jpg" alt="1">
+                    <span class="songName">Kaise Hua</span>
+                    <span class="songlistplay"><span class="timestamp">03:55  <i class="fa-solid fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img class="hi" src="2i.jpg" alt="2">
+                    <span class="songName">Mehbooba</span>
+                    <span class="songlistplay"><span class="timestamp">03:39  <i class="fa-solid fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img  class="hi" src="3i.jpg" alt="3">
+                    <span class="songName">Kahaani Suno</span>
+                    <span class="songlistplay"><span class="timestamp">02:54  <i class="fa-solid fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img class="hi" src="4i.jpg" alt="4">
+                    <span class="songName">Apna Bana Le</span>
+                    <span class="songlistplay"><span class="timestamp">03:24  <i class="fa-solid fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img class="hi" src="5i.jpg" alt="5">
+                    <span class="songName">Khairayat</span>
+                    <span class="songlistplay"><span class="timestamp">04:40 <i class="fa-solid fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img class="hi" src="6i.jpg" alt="1">
+                    <span class="songName">Hare Murari</span>
+                    <span class="songlistplay"><span class="timestamp">02:33  <i class="fa-solid fa-play"></i></span></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="songBanner"></div>
+
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100" value="0">
+        <div class="icons">
+            <i class="far fa-2x fa-solid fa-backward"></i>
+            <i class="far fa-2x fa-solid fa-play" id="masterPlay"></i>
+            <i class="far fa-2x fa-solid fa-forward"></i>
+        </div>
+        <div class="songInfo">
+            <img src="waves.gif" alt="Waves" width="30px" id="gif">
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/8e92dd05e2.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
